@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 AlertDialog.Builder alert = new AlertDialog.Builder(MainActivity.this);
                 alert.setTitle("Delete");
-                alert.setMessage("Do you want to delete this item from the to do list? ");
+                alert.setMessage("Do you want to delete this item from the todo list? ");
                 alert.setCancelable(false);
                 alert.setNegativeButton("No", new DialogInterface.OnClickListener() {
                     @Override
